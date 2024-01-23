@@ -113,8 +113,9 @@ body {
 }
 
 .sobre__mim {
+	width: 100%;
 	padding: 32px;
-	background-color: #FFFFFF;
+	background-color: var(--cor-secundaria);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -128,7 +129,7 @@ body {
 }
 
 .sobre__mim__conteudo {
-	width: 100%;
+	width: 70%;
 	padding: 16px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
@@ -157,6 +158,12 @@ body {
 	padding: 16px;
 	border: 2px solid var(--cor-terciaria);
 	border-radius: 16px;
+}
+
+.experiencia__cartao:hover {
+	background-color: ;
+	border-radius: 16px;
+	background-color: #272727;
 }
 
 .experiencia__cartao__empresa {
@@ -192,6 +199,37 @@ body {
 
 .experiencia__cartao__link:hover {
 	text-decoration: underline;
+}
+
+.tecnologias {
+	background-color: var(--cor-secundaria);
+}
+
+.tecnologias__titulo {
+	padding: 16px;
+	font-family: 'Krona One', sans-serif;
+	font-size: 1.9rem;
+	color: var(--cor-principal);
+	text-align: center;
+}
+
+.tecnologias__tecnologias {
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.tecnologias__tecnologia {
+	color: black;
+}
+
+.img-tecnologia {
+	padding: 10px;
+	width: 15%;
+	width: 15%;
+	border-radius: 16px;
+	border: 2px solid var(--cor-terciaria);
 }
 
 .rodape {
